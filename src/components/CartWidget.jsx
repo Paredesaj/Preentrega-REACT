@@ -1,8 +1,7 @@
-import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
-function CartWidget() {
+function CartWidget({cartArticle}) {
     return (
         <div style={{ 
             position: 'relative',
@@ -22,13 +21,10 @@ function CartWidget() {
                     alignItems: 'center',
                     fontSize: '12px',
                 }}
-            >
-                2
+            >{cartArticle}
             </div>
         </div>
     );
 }
 
 export default CartWidget;
-
-
