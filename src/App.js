@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavBar from './components/NavBar';
@@ -6,7 +5,7 @@ import ItemListContainer from './components/ItemListContainer';
 import { CardList } from './components/CardList';
 import Loader from './components/Loader';
 import ItemDetail from './components/ItemDetail';
-import QuienesSomos from './components/QuienesSomos'; // Importa el componente QuienesSomos
+import QuienesSomos from './components/QuienesSomos';
 import { ItemProvider } from './ItemContext';
 
 function App() {
@@ -53,8 +52,7 @@ function App() {
               </>
             } />
             <Route path="/detail/:id" element={<ItemDetail />} />
-            <Route path="/quienes-somos" element={<QuienesSomos />} /> {/* Ruta para QuienesSomos */}
-            {/* Agrega otras rutas según sea necesario */}
+            <Route path="/quienes-somos" element={<QuienesSomos />} />
           </Routes>
         </div>
       </Router>

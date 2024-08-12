@@ -1,4 +1,3 @@
-// src/ItemContext.js
 import React, { createContext, useContext, useState } from 'react';
 
 const ItemContext = createContext();

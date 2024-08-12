@@ -1,55 +1,50 @@
-[{
+[
+  {
     "id": "1",
-    "imagen" : "/imagen/1.jpeg"
-
-    },
+    "imagen": "/imagen/1.jpeg"
+  },
   {
     "id": "2",
     "imagen": "/imagen/2.jpeg"
   },
   {
     "id": "3",
-    "imagen" : "/imagen/3.jpeg"
-
-    },
+    "imagen": "/imagen/3.jpeg"
+  },
   {
     "id": "4",
     "imagen": "/imagen/4.jpeg"
   },
   {
     "id": "5",
-    "imagen" : "/imagen/5.jpeg"
-
-    },
+    "imagen": "/imagen/5.jpeg"
+  },
   {
     "id": "6",
     "imagen": "/imagen/6.jpeg"
   },
   {
     "id": "7",
-    "imagen" : "/imagen/7.jpeg"
-
-    },
+    "imagen": "/imagen/7.jpeg"
+  },
   {
     "id": "8",
     "imagen": "/imagen/8.jpeg"
   },
   {
     "id": "9",
-    "imagen" : "/imagen/9.jpeg"
-
-    },
+    "imagen": "/imagen/9.jpeg"
+  },
   {
     "id": "10",
     "imagen": "/imagen/10.jpeg"
   },
   {
     "id": "11",
-    "imagen" : "/imagen/11.jpeg"
-
-    },
+    "imagen": "/imagen/11.jpeg"
+  },
   {
     "id": "12",
     "imagen": "/imagen/12.jpeg"
-  } 
+  }
 ]
