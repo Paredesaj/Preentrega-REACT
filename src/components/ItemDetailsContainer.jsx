@@ -3,6 +3,9 @@ import { useParams } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import data from "../data/data.json"
 import Loader from './Loader';
+import { Link } from 'react-router-dom/dist';
+import Card from 'react-bootstrap/Card';
+import ListGroup from 'react-bootstrap/ListGroup';
 
 export const ItemDetailsContainer = () => {
     const [item, setItem] = useState([]);
@@ -23,11 +26,20 @@ export const ItemDetailsContainer = () => {
 
     return(
     <Container className='mt-4'>
-        <h1>{item.title}</h1>
-        <img src={item.imagen} height={500}/>
-        <h2>{item.category}</h2>
-        <h3>Size: {item.size}</h3>
-        <h3>Price: ${item.price}</h3>
+    <Card style={{ width: '18rem' }}>
+      <Card.Img src={item.imagen}/>
+      <Card.Body>
+        <Card.Title>{item.title}</Card.Title>
+      </Card.Body>
+      <ListGroup className="list-group-flush">
+        <ListGroup.Item>{item.category}</ListGroup.Item>
+        <ListGroup.Item>Size: {item.size}</ListGroup.Item>
+        <ListGroup.Item>Price: ${item.price}</ListGroup.Item>
+      </ListGroup>
+      <Card.Body>
+        <Card.Link><Link to="/" style={{ marginRight: '10px', textDecoration: 'none', color: 'blue' }}>Home</Link></Card.Link>
+      </Card.Body>
+    </Card>
     </Container>
     );
 }
