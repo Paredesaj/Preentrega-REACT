@@ -1,50 +1,98 @@
 [
   {
-    "id": "1",
-    "imagen": "/imagen/1.jpeg"
+    "id": 1,
+    "imagen": "/imagen/1.jpeg",
+    "title": "Response Super",
+    "size": "5 - 10 US",
+    "category": "Women",
+    "price": 100
   },
   {
-    "id": "2",
-    "imagen": "/imagen/2.jpeg"
+    "id": 2,
+    "imagen": "/imagen/2.jpeg",
+    "title": "Adidas VL Court 3.0",
+    "size": "5 - 10 us",
+    "category": "Women",
+    "price": 75
   },
   {
-    "id": "3",
-    "imagen": "/imagen/3.jpeg"
+    "id": 3,
+    "imagen": "/imagen/3.jpeg",
+    "title": "Topper Angel",
+    "size": "5 - 10 us",
+    "category": "Women",
+    "price": 30
   },
   {
-    "id": "4",
-    "imagen": "/imagen/4.jpeg"
+    "id": 4,
+    "imagen": "/imagen/4.jpeg",
+    "title": "Merrell Accentor 3",
+    "size": "5 - 10 us",
+    "category": "Women",
+    "price": 100
   },
   {
-    "id": "5",
-    "imagen": "/imagen/5.jpeg"
+    "id": 5,
+    "imagen": "/imagen/5.jpeg",
+    "title": "Adidas Response Super",
+    "size": "7 - 11.5 us",
+    "category": "Men",
+    "price": 100
   },
   {
-    "id": "6",
-    "imagen": "/imagen/6.jpeg"
+    "id": 6,
+    "imagen": "/imagen/6.jpeg",
+    "title": "Topper Basket Flight",
+    "size": "7 - 11.5 us",
+    "category": "Men",
+    "price": 50
   },
   {
-    "id": "7",
-    "imagen": "/imagen/7.jpeg"
+    "id": 7,
+    "imagen": "/imagen/7.jpeg",
+    "title": "Puma Rebound V6",
+    "size": "7 - 11.5 us",
+    "category": "Men",
+    "price": 110
   },
   {
-    "id": "8",
-    "imagen": "/imagen/8.jpeg"
+    "id": 8,
+    "imagen": "/imagen/8.jpeg",
+    "title": "New Balance 410",
+    "size": "7 - 11.5 us",
+    "category": "Men",
+    "price": 100
   },
   {
-    "id": "9",
-    "imagen": "/imagen/9.jpeg"
+    "id": 9,
+    "imagen": "/imagen/9.jpeg",
+    "title": "Adidas Tensaur Sport 2.0",
+    "size": "1 - 6.5 us",
+    "category": "Kid",
+    "price": 75
   },
   {
-    "id": "10",
-    "imagen": "/imagen/10.jpeg"
+    "id": 10,
+    "imagen": "/imagen/10.jpeg",
+    "title": "Disney Frozen",
+    "size": "1 - 6.5 us",
+    "category": "Kid",
+    "price": 35
   },
   {
-    "id": "11",
-    "imagen": "/imagen/11.jpeg"
+    "id": 11,
+    "imagen": "/imagen/11.jpeg",
+    "title": "Adidas Fútbol 11 Messi F50",
+    "size": "1 - 6.5 us",
+    "category": "Kid",
+    "price": 100
   },
   {
-    "id": "12",
-    "imagen": "/imagen/12.jpeg"
+    "id": 12,
+    "imagen": "/imagen/12.jpeg",
+    "title": "Footy Fútbol 11",
+    "size": "1 - 6.5 us",
+    "category": "Kid",
+    "price": 50
   }
 ]

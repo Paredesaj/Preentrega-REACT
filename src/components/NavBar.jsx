@@ -1,56 +1,25 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 import CartWidget from './CartWidget';
 
-const NavbarContainer = styled.nav`
-  background-color: black;
-  padding: .4rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 
-  h2 {
-    font-weight: 400;
-    color: orange;
-    margin-left: 5px;
-    span {
-      font-weight: bold;
-    }
-  }
-`;
-
-const LinksContainer = styled.div`
-  display: flex;
-  align-items: center;
-
-  a {
-    color: white;
-    text-decoration: none;
-    margin-right: 2rem;
-    font-size: 15px;
-    font-family: Arial, sans-serif;
-    text-transform: uppercase;
-
-    &:hover {
-      color: orange;
-      text-decoration: underline;
-    }
-  }
-`;
-
-function NavBar({ cartArticle }) {
+export const NavBar = ({ cartArticle }) => {
   return (
-    <NavbarContainer>
-      <h2><span>STADIUM</span> CALZADO</h2>
-      <LinksContainer>
-        <Link to="/">Home</Link>
-        {/* <Link to="/cart">Cart</Link> */}
-        <Link to="/quienes-somos">Quienes Somos</Link>
-        <CartWidget cartArticle={cartArticle} />
-      </LinksContainer>
-    </NavbarContainer>
-  );
+    <>
+      <Navbar bg="dark" data-bs-theme="dark">
+        <Container style={{ display: "Flex", textAlign: "center", justifyContent: "center" }}>
+          <h2 style={{ color: 'Orange', fontSize: '25px' }}><span style={{ color: "darkorange" }}>STADIUM</span> CALZADO</h2>
+          <Nav className="me-auto">
+            <Nav.Link as={NavLink} to="/">Home</Nav.Link>
+            <Nav.Link as={NavLink} to="/category/Women">Women</Nav.Link>
+            <Nav.Link as={NavLink} to="/category/Men">Men</Nav.Link>
+            <Nav.Link as={NavLink} to="/category/Kid">Kid</Nav.Link>
+          </Nav>
+          <CartWidget cartArticle={cartArticle} />
+        </Container>
+      </Navbar>
+    </>
+  )
 }
-
-export default NavBar;

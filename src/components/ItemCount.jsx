@@ -13,7 +13,7 @@ const QuantityControls = styled.div`
   justify-content: space-between; 
   align-items: center;
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 0.1rem; /* Reducido */
 `;
 
 const Button = styled.button`
@@ -71,7 +71,7 @@ const AddToCartButton = styled.button`
   align-items: center;
   justify-content: center;
   position: relative;
-  margin-top: 1rem;
+  margin-top: 0.5rem; /* Reducido */
   overflow: hidden;
 
   &:hover .IconContainer {

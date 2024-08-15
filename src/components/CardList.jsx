@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import Container from 'react-bootstrap/Container';
-import CardStyle from './Card';
+import {ItemListContainer} from './ItemListContainer'
 import data from '../data/data.json';
 
 const getImageForPerson = (person) => {
@@ -83,7 +83,7 @@ export const CardList = ({ data, loading, addToCart }) => {
               ...person,
               image: getImageForPerson(person)
             };
-            return <CardStyle key={updatedPerson.id} person={updatedPerson} addToCart={addToCart} />;
+            return <ItemListContainer key={updatedPerson.id} person={updatedPerson} addToCart={addToCart} />;
           })}
           {visibleCount < data.length && (
             <MoreButtonContainer>

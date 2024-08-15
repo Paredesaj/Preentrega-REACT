@@ -34,7 +34,7 @@ const MoreButton = styled(Link)`
   }
 `;
 
-function CardStyle({ person, addToCart }) {
+function CardStyle({ i, addToCart }) {
   const { setSelectedItem } = useItem();
 
   const handleAddToCart = (quantity) => {
