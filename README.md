@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Proyecto E-commerce de Calzado
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una aplicación de e-commerce que permite a los usuarios navegar y comprar una variedad de calzado. Utiliza React para la interfaz de usuario y Firebase para el almacenamiento de datos y la autenticación.
 
-## Available Scripts
+## Tabla de Contenidos
 
-In the project directory, you can run:
+- [Características](#características)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Contribución](#contribución)
+- [Licencia](#licencia)
 
-### `npm start`
+## Características
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Navegación intuitiva de productos.
+- Filtros por categorías.
+- Detalles del producto en una página separada.
+- Carrito de compras para gestionar los artículos seleccionados.
+- Integración con Firebase para almacenamiento y autenticación.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnologías Utilizadas
 
-### `npm test`
+- **React**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **Firebase**: Plataforma de desarrollo de aplicaciones que proporciona una base de datos en tiempo real y autenticación.
+- **React Bootstrap**: Para el diseño y los componentes responsivos.
+- **Styled-components**: Para manejar los estilos de manera más modular.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instalación
 
-### `npm run build`
+1. Clona este repositorio en tu máquina local:
+   ```bash
+   git clone : https://github.com/Paredesaj/Preentrega-REACT.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navega al directorio del proyecto:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+cd : https://github.com/Paredesaj/Preentrega-REACT.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Instala las dependencias:
 
-### `npm run eject`
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Uso
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Inicia el servidor de desarrollo:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Abre tu navegador y ve a http://localhost:3000 para ver la aplicación en funcionamiento.
 
-## Learn More
+## Contribución
+Si deseas contribuir a este proyecto, por favor sigue estos pasos:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Haz un fork del repositorio.
+2. Crea una nueva rama (git checkout -b feature-nuevaCaracteristica).
+3. Realiza tus cambios y haz commit (git commit -m 'Añadir nueva característica').
+4. Envía tus cambios a la rama principal (git push origin feature-nuevaCaracteristica).
+5. Abre un Pull Request.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Licencia
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
-### Code Splitting
+### Notas:
+- Usuario GitHub: (https://github.com/Paredesaj) y mi repo: https://github.com/Paredesaj/Preentrega-REACT 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[![2-AD4-B36-E-9314-4-ED6-A12-C-EB52-C6-D83-D8-B.jpg](https://i.postimg.cc/sgWNVvXJ/2-AD4-B36-E-9314-4-ED6-A12-C-EB52-C6-D83-D8-B.jpg)](https://postimg.cc/Wd2n8p0D)
 
-### Analyzing the Bundle Size
+[![AB5-BE9-CE-72-DC-461-B-AA58-3191-E6-B3-EAFA.jpg](https://i.postimg.cc/WbF9nhMP/AB5-BE9-CE-72-DC-461-B-AA58-3191-E6-B3-EAFA.jpg)](https://postimg.cc/kBCFMM1j)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[![BA6-F883-A-D4-CA-4-C4-F-A7-B5-F00-CEC1-B4-F32.jpg](https://i.postimg.cc/5Nhskb3Q/BA6-F883-A-D4-CA-4-C4-F-A7-B5-F00-CEC1-B4-F32.jpg)](https://postimg.cc/0bCGzgh9)
 
-### Making a Progressive Web App
+[![227-DD390-85-F9-417-F-962-F-DEC3-C6187-D96.jpg](https://i.postimg.cc/mZ6XCQ1w/227-DD390-85-F9-417-F-962-F-DEC3-C6187-D96.jpg)](https://postimg.cc/0rD0qKfM)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[![5916-C0-CF-C061-4-A03-AE89-B4-EF039-E50-C9.jpg](https://i.postimg.cc/V6kgb6Yp/5916-C0-CF-C061-4-A03-AE89-B4-EF039-E50-C9.jpg)](https://postimg.cc/67FnkB4f)
 
-### Advanced Configuration
+[![71-EBAEA3-8229-4756-9-A95-689928-E86-F34.jpg](https://i.postimg.cc/1XTvSQ1T/71-EBAEA3-8229-4756-9-A95-689928-E86-F34.jpg)](https://postimg.cc/tn33d8Tt)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+[![203-C2-ACC-4-F99-487-E-B5-D6-DAAB6-FBCED6-F.jpg](https://i.postimg.cc/pr2ZzJD2/203-C2-ACC-4-F99-487-E-B5-D6-DAAB6-FBCED6-F.jpg)](https://postimg.cc/47SVTtLM)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![A912-DD6-B-D808-4-E33-B020-907-ABA059943.jpg](https://i.postimg.cc/GprqdK6c/A912-DD6-B-D808-4-E33-B020-907-ABA059943.jpg)](https://postimg.cc/BjYxCTqy)
