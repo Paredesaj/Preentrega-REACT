@@ -81,5 +81,3 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más 
 [![203-C2-ACC-4-F99-487-E-B5-D6-DAAB6-FBCED6-F.jpg](https://i.postimg.cc/pr2ZzJD2/203-C2-ACC-4-F99-487-E-B5-D6-DAAB6-FBCED6-F.jpg)](https://postimg.cc/47SVTtLM)
 
 [![A912-DD6-B-D808-4-E33-B020-907-ABA059943.jpg](https://i.postimg.cc/GprqdK6c/A912-DD6-B-D808-4-E33-B020-907-ABA059943.jpg)](https://postimg.cc/BjYxCTqy)
-
-[![A912-DD6-B-D808-4-E33-B020-907-ABA059943.jpg](https://i.postimg.cc/GprqdK6c/A912-DD6-B-D808-4-E33-B020-907-ABA059943.jpg)](https://postimg.cc/BjYxCTqy)
