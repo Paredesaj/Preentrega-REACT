@@ -62,7 +62,10 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más 
 
 ### Notas:
 - Usuario GitHub: (https://github.com/Paredesaj) y mi repo: https://github.com/Paredesaj/Preentrega-REACT 
+<<<<<<< HEAD
 - Si hay otras características o tecnologías que desees agregar, siéntete libre de hacerlo.
+=======
+>>>>>>> 03563426aa020b2502535ede8604d317ab0f7b6f
 
 [![2-AD4-B36-E-9314-4-ED6-A12-C-EB52-C6-D83-D8-B.jpg](https://i.postimg.cc/sgWNVvXJ/2-AD4-B36-E-9314-4-ED6-A12-C-EB52-C6-D83-D8-B.jpg)](https://postimg.cc/Wd2n8p0D)
 
@@ -78,4 +81,8 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más 
 
 [![203-C2-ACC-4-F99-487-E-B5-D6-DAAB6-FBCED6-F.jpg](https://i.postimg.cc/pr2ZzJD2/203-C2-ACC-4-F99-487-E-B5-D6-DAAB6-FBCED6-F.jpg)](https://postimg.cc/47SVTtLM)
 
+<<<<<<< HEAD
 [![A912-DD6-B-D808-4-E33-B020-907-ABA059943.jpg](https://i.postimg.cc/GprqdK6c/A912-DD6-B-D808-4-E33-B020-907-ABA059943.jpg)](https://postimg.cc/BjYxCTqy)
+=======
+[![A912-DD6-B-D808-4-E33-B020-907-ABA059943.jpg](https://i.postimg.cc/GprqdK6c/A912-DD6-B-D808-4-E33-B020-907-ABA059943.jpg)](https://postimg.cc/BjYxCTqy)
+>>>>>>> 03563426aa020b2502535ede8604d317ab0f7b6f
