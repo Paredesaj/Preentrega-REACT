@@ -20,7 +20,7 @@ export const Cart = () => {
             {items.length === 0 ? (
                 <div style={{ textAlign: 'center', marginTop: '20px' }}>
                     <h2>Tu carrito está vacío</h2>
-                    <p>Regresa a la <Link to='/'/> para agregar productos.</p>
+                    <p>Regresa al <Link to='/'>Inicio</Link> para agregar productos.</p>
                 </div>
             ) : (
                 <>

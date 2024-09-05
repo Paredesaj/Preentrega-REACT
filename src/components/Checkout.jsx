@@ -4,6 +4,9 @@ import { getFirestore, collection, addDoc } from "firebase/firestore";
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
+import { Link } from "react-router-dom";
+import { Button } from 'react-bootstrap';
+
 
 const initialValues = {
     phone: "",
@@ -69,12 +72,15 @@ export const PlaintextExample = () => {
 
     if (items.length === 0) {
         return (
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', height: '100vh' }}>
                 <h2>Muchas gracias por tu compra</h2>
+               <Button variant="outline-warning"><Link to='/' style={{ marginTop: '20px', fontSize: '18px', textDecoration: 'none', color: 'black'}}>
+                    Volver al Inicio
+                </Link></Button> 
             </div>
         );
     }
-
+    
     return (
         <div>
             <h2>Formulario de Compra</h2>
