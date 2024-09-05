@@ -1,6 +1,9 @@
-import { useContext } from "react";
-import { ItemContext } from "../contexts/ItemContext";
-import { useNavigate } from 'react-router-dom';
+import { useContext } from 'react';
+import { ItemContext } from '../contexts/ItemContext';
+import {Link, useNavigate } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
 
 export const Cart = () => {
     const { items, reset, removeItem } = useContext(ItemContext);
@@ -12,24 +15,35 @@ export const Cart = () => {
         navigate('/checkout');
     };
 
-    if (items.length === 0) return "Regresa al inicio";
-
     return (
         <>
-            {items.map((item) => (
-                <div key={item.id}>
-                    <h1>{item.title}</h1>
-                    <img src={item.imagen} alt={item.title} height={200} />
-                    <p>{item.quantity}</p>
-                    <button onClick={() => removeItem(item.id)}>Eliminar Item</button>
+            {items.length === 0 ? (
+                <div style={{ textAlign: 'center', marginTop: '20px' }}>
+                    <h2>Tu carrito está vacío</h2>
+                    <p>Regresa a la <Link to='/'/> para agregar productos.</p>
                 </div>
-            ))}
-            <br />
-            <div>Total $ {total}</div>
-            <br />
-            <button onClick={reset}>Vaciar Carrito</button>
-            <br />
-            <button onClick={proceedToCheckout}>Proceder a la Compra</button>
+            ) : (
+                <>
+                    {items.map((item) => (
+                        <div key={item.id}>
+                            <h1>{item.title}</h1>
+                            <img src={item.imagen} alt={item.title} height={200} />
+                            <p>Cantidad: {item.quantity}</p>
+                            <button onClick={() => removeItem(item.id)}>
+                                <FontAwesomeIcon icon={faTrashCan} />
+                            </button>
+                        </div>
+                    ))}
+                    <br />
+                    <div>Total: $ {total}</div>
+                    <br />
+                    
+                    <Button variant="outline-warning" onClick={reset}>Vaciar Carrito</Button>
+                    <br />
+
+                    <Button variant="outline-warning" onClick={proceedToCheckout}>Proceder a la Compra</Button>
+                </>
+            )}
         </>
     );
 };
