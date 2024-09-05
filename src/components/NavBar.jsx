@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import CartWidget from './CartWidget';
 
-export const NavBar = ({ cartArticle }) => {
+export const NavBar = () => {
   return (
     <>
       <Navbar bg="dark" data-bs-theme="dark">
@@ -25,7 +25,7 @@ export const NavBar = ({ cartArticle }) => {
               <Nav.Link as={NavLink} to="/category/Men">Men</Nav.Link>
               <Nav.Link as={NavLink} to="/category/Kid">Kid</Nav.Link>
             </Nav>
-            <CartWidget cartArticle={cartArticle} />
+            <CartWidget/>
           </div>
         </Container>
       </Navbar>

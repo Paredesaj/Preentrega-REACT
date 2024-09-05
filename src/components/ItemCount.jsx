@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -121,9 +121,8 @@ const Text = styled.p`
   margin-top: 15px;
 `;
 
-const ItemCount = ({ setCartArticle }) => {
-  const stock = 15;
-  const [value, setValue] = useState(0);
+export const ItemCount = ({ onAdd, stock }) => {
+  const [value, setValue] = useState(1);
 
   const handleRefAdd = () => {
     if (value < stock) {
@@ -132,14 +131,14 @@ const ItemCount = ({ setCartArticle }) => {
   };
 
   const handleRefSubtract = () => {
-    if (value > 0) {
+    if (value > 1) {
       setValue(value - 1);
     }
   };
 
   const handleAddToCart = () => {
-    setCartArticle(value);
-    setValue(0);
+    onAdd(value);
+    setValue(1)
   };
 
   return (
@@ -160,5 +159,3 @@ const ItemCount = ({ setCartArticle }) => {
     </Container>
   );
 };
-
-export default ItemCount;

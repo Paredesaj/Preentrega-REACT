@@ -2,21 +2,26 @@ import { BrowserRouter ,Routes, Route } from 'react-router-dom';
 import {NavBar} from './components/NavBar';
 import {ItemListContainer} from './components/ItemListContainer';
 import {ItemDetailsContainer}from './components/ItemDetailsContainer';
-// import QuienesSomos from './components/QuienesSomos';
-// import { ItemProvider } from './ItemContext';
+import { Provider } from "./contexts/ItemContext";
+import {Cart} from "./components/Cart"
+import { PlaintextExample } from './components/Checkout';
 
 function App() {
   
   return (
+    <Provider>
       <BrowserRouter>
           <NavBar/>
           <Routes>
             <Route path='/' element={<ItemListContainer/>}/>
             <Route path='/category/:id' element={<ItemListContainer/>} />
             <Route path='/item/:id' element={<ItemDetailsContainer/>} />
+            <Route path='/cart' element={<Cart />} />
+            <Route path="/checkout" element={<PlaintextExample />} />
             <Route path='*' element={404}/>
                 </Routes>
       </BrowserRouter>
+      </Provider>
   );
 }
 
